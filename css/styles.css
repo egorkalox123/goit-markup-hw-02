@@ -154,13 +154,10 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
-  font-style: normal;
 
   color: rgba(255, 255, 255, 0.6);
 }
 .address .map {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
