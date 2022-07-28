@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", "sans-serif";
+  color: #757575;
 }
 .link {
   text-decoration: none;
@@ -8,22 +9,23 @@ body {
 ul {
   list-style: none;
 }
-/* p {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: left;
-} */
+
 .portfolio-button:hover {
   background-color: #2196f3;
 }
-/* .link:hover{
-    color: #2196F3;
-} */
-/* header  */
-header {
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+
+  color: #212121;
 }
+.button {
+  border: none;
+  cursor: pointer;
+}
+/* header  */
+
 .logo {
   color: #000000;
   font-family: "Raleway";
@@ -33,19 +35,20 @@ header {
 .logo-blue {
   color: #2196f3;
 }
+
 .site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: #212121;
 }
-.contact {
+
+.contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: #757575;
 }
 
 /* heroes */
@@ -54,49 +57,40 @@ header {
 }
 .hero-title {
   color: #ffffff;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.benefits-tittle {
-  font-style: normal;
+.button-hero {
+  color: #ffffff;
+  font-size: 16px;
   font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+}
+
+/* benefits */
+.benefits-tittle {
   font-size: 14px;
   line-height: 1.14;
 
   text-transform: uppercase;
 }
-.benefits-tittle-list {
-  font-style: normal;
-  font-weight: 400;
+.benefits-text {
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
+}
 
-  color: #757575;
+/* works */
+.works-title {
 }
-.button {
-  background-color: #2196f3;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  border: none;
-}
-.button-text {
-  color: #ffffff;
-  font-size: 16px;
-}
-.work {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-}
+
+/* team */
 .team {
   font-weight: 700;
   font-size: 36px;
@@ -111,43 +105,31 @@ header {
 
   color: #212121;
 }
-.workers-work {
-  font-weight: 400;
-  font-size: 16px;
+.team-text {
   line-height: 1.19;
-  color: #757575;
 }
-.portfolio-button {
-  width: 112px;
-  height: 38px;
-  left: 726px;
-  top: 174px;
 
+/* Портфолио фильтр */
+
+.portfolio-button {
   background: #f5f4fa;
-  border: none;
-}
-.portfolio-button-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-
   color: #212121;
 }
+
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
 
   color: #212121;
 }
 .portfolio-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.88;
-  /* identical to box height, or 188% */
 
   color: #757575;
 }
@@ -163,7 +145,7 @@ footer {
 }
 
 .site-nav .link:hover,
-.contact .link:hover,
+.contacts .link:hover,
 .address .link:hover {
   color: #2196f3;
 }
