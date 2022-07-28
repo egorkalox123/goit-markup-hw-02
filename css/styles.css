@@ -150,6 +150,12 @@ footer {
   color: #2196f3;
 }
 
+.site-nav .link:focus,
+.contacts .link:focus,
+.address .link:focus {
+  color: #2196f3;
+}
+
 .address {
   font-size: 14px;
   line-height: 1.71;
